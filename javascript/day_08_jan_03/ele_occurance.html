@@ -1,0 +1,13 @@
+<script>
+    let arr = [10, 20, 10, 30, 10, 40, 20, 30, 20];
+    let obj = {};
+
+    for (val of arr) {
+        if (obj[val]) {
+            obj[val] = obj[val] + 1;
+        } else {
+            obj[val] = 1;
+        }
+    }
+    console.log(obj);
+</script>
