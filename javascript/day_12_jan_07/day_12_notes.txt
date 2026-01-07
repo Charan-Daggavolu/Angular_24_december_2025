@@ -1,0 +1,15 @@
+ECMAScript-6 and beyond
+=======================
+1. template literal
+2. multiline string
+3. let & const 
+4. arrow functions
+5. destructuring (object/array)
+6. default paramater
+7. spread and REST (...)
+8. enhanced object literal
+9. class
+10. optional chaining
+11. Set & Map
+12. modules
+13. promises, async await
