@@ -1,0 +1,29 @@
+modules
+========
+1. CommonJS Module  ( module.exports , require )
+   Nodejs
+2. ES Module      ( export , import )
+   Angular , React
+
+
+Javascript Runtime Env
+======================
+Heap : all the variables are stored physically
+callstack : functions are aexecuted , LIFO 
+            Normal functions are added to callstack directly
+            async callbacks are not added to callstack directly
+
+async functions have to wait in 
+    1. Task Queue     (lower priority)  (settimeout, setinterval)
+    2. MicroTask Queue (higher priority) (promise , async functions, mutation observer)
+
+
+
+
+callbacks , promises, async await
+=================================
+callbacks: 
+-a function being passed as argument to another function 
+ex: let incrementedArr = arr.map((ele)=>ele+5); // map() higherorder  , ()=> callback
+
+
