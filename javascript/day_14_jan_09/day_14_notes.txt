@@ -1,0 +1,8 @@
+Promise & Async-Await
+=====================
+-Both Promise & async/await are used for async programming 
+-async/await is just a syntactic difference from Promise
+
+-Promise is an object whose value is not known now but will be available in some time
+-Pomise statuses: 1. pending   2. fulfilled  3. rejected
+-How do we get data from promise: 1. then()   2.async await
